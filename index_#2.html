@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IT 202 Assignment #2</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <h1> The Task Solvers: </h1>
+
+         <!-- Reverse String -->
+        <section>
+            <h2>1: Reverse String Display</h2>
+            <input type="text" id="reverseInput" placeholder="Enter a string."/>
+            <button onclick="reverseString()">Reverse</button>
+            <p id="reverseResult"></p>
+        </section>
+
+        <!-- Palindrome Check -->
+        <section>
+            <h2>2: Palindrome Checker</h2>
+            <input type="text" id="stringInput" placeholder="Enter some numbers."/>
+            <button onclick="checkPalindrome()">Check</button>
+            <p id="palindromeResult"></p>
+        </section>
+
+        <!-- Bill Calculator -->
+        <section>
+            <h2>3: Subtotal & Tip Claculator</h2>
+            <input type="number" id="subtotal" placeholder="Subtotal value ($)"/>
+            <input type="number" id="tip" placeholder="Tip percetge (%)" />
+            <button onclick="calculateTotal()">Calculate Total</button>
+            <p id="totalResult"></p>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
